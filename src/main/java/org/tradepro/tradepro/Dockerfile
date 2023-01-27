@@ -14,4 +14,4 @@ RUN echo "Resolving app directory dependencies"
 RUN ./mvnw dependency:resolve
 RUN ./mvnw  clean install
 RUN echo "STARTING  APPLICATION"
-CMD [ "./mvnw" ,"java-jar tradepro 1.0-SNAPSHOT" ]
+CMD [ "./mvnw" ,"java-jar tradepro-1.0-SNAPSHOT." ]
