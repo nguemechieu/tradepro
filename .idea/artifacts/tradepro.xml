@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jpackage" name="tradepro">
+    <output-path>$PROJECT_DIR$/out/artifacts/tradepro</output-path>
+    <root id="root">
+      <element id="archive" name="tradepro.jar">
+        <element id="module-output" name="tradepro" />
+      </element>
+    </root>
+  </artifact>
+</component>

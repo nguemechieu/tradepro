@@ -15,6 +15,13 @@
     </properties>
     <scm><url>https://github.com/nguemechieu/tradepro</url></scm>
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-dependency-plugin</artifactId>
+            <version>3.5.0</version>
+        </dependency>
+
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
@@ -63,11 +70,6 @@
             <groupId>jakarta.websocket</groupId>
             <artifactId>jakarta.websocket-client-api</artifactId>
             <version>2.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-plugin-plugin</artifactId>
-            <version>3.6.4</version>
         </dependency>
 
 
