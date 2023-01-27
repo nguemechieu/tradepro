@@ -3,22 +3,58 @@
   <component name="AnalysisUIOptions">
     <option name="ANALYZE_INJECTED_CODE" value="false" />
   </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tradepro" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e89f605-cbe6-48ef-b55e-9bc8d668205a" name="Changes" comment="run">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/tradepro_Dockerfile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/BinanceUs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/BinanceUsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/DataSourceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/DataSources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/ENUM_TRADE_STATUS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/EXCHANGE_LIST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/Exchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/Oanda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/OandaClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/Telegram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/TelegramClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/Tick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/Trade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/TradeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/TradePlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/TradingScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tradepro.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/tradepro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/tradepro.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tradepro/tradepro/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/tradepro/tradepro/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -46,7 +82,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2KuYMp2yGrGwRTZyI7T9fROnrqk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -54,24 +90,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/nguem/IdeaProjects/tradepro",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.47816092",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nguem/IdeaProjects/tradepro&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.47816092&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.tradepro.tradepro" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.tradepro.tradepro.Main" />
@@ -92,19 +134,9 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="tradepro/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="buildOnly" value="true" />
-          <option name="sourceFilePath" value="src/main/java/org/tradepro/tradepro/Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Docker.tradepro/Dockerfile" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674834568856</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="run">
+      <created>1674838113804</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674838113804</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

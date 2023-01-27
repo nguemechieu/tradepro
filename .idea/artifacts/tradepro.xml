@@ -1,6 +1,15 @@
 <component name="ArtifactManager">
   <artifact type="jpackage" name="tradepro">
     <output-path>$PROJECT_DIR$/out/artifacts/tradepro</output-path>
+    <properties id="jpackage-properties">
+      <options>
+        <option name="version" value="" />
+        <option name="copyright" value="" />
+        <option name="description" value="" />
+        <option name="vendor" value="" />
+        <option name="mainClass" value="org.tradepro.tradepro.Main" />
+      </options>
+    </properties>
     <root id="root">
       <element id="archive" name="tradepro.jar">
         <element id="module-output" name="tradepro" />
