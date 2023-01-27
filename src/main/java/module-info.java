@@ -5,8 +5,6 @@ module org.tradepro.tradepro {
     requires org.junit.jupiter.api;
     requires org.slf4j;
 
-    requires org.eclipse.sisu.plexus;
-
     requires jdk.internal.vm.compiler.management;
  requires  java.logging;
  requires java.datatransfer;

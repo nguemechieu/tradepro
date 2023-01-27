@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.9.1</junit.version>
     </properties>
-
+    <scm><url>https://github.com/nguemechieu/tradepro</url></scm>
     <dependencies>
         <dependency>
             <groupId>org.openjfx</groupId>

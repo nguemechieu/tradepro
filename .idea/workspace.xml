@@ -32,6 +32,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2KuYMp2yGrGwRTZyI7T9fROnrqk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,7 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Docker.tradepro/Dockerfile">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.tradepro.tradepro.Main" />
       <module name="tradepro" />
@@ -77,8 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.tradepro/Dockerfile" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Docker.tradepro/Dockerfile" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674829158679</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="runcvb">
+      <created>1674829650818</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674829650819</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
